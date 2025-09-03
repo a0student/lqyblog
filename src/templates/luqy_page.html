@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head>    
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name=viewport><meta charset=utf-8>
+    <link rel="stylesheet" href="./init.css">
+    %for title, art_date, post in art_li:
+    <title>${title}</title>
+    </head>
+    <body><div class="BODY">
+    <div class="BACK"><a href="../index.html">返回索引页</a></div>
+    <h1>${title}</h1>
+    <p class="DATE">${art_date}</p>
+    <br><br>
+    <div class="POST">${post}</div>
+    %endfor
+    </div>
+    <div class="BACK"><a href="../index.html">返回索引页</a></div>
+    </body></html>
